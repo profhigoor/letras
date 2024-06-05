@@ -1,0 +1,64 @@
+ # Recebe a letra que o usuário digitar
+letra = input("Digite uma letra do alfabeto: ")
+
+# Converte a letra em minúscula para evitar problemas de comparação
+letra = letra.lower()
+
+
+
+print(letra)
+# Verifica a letra digitada e mostra o objeto correspondente
+if letra == 'a':
+    print("Avião")
+elif letra == 'b':
+    print("Bola")
+elif letra == 'c':
+    print("Carro")
+elif letra == 'd':
+    print("Dado")
+elif letra == 'e':
+    print("Elefante")
+elif letra == 'f':
+    print("Foca")
+elif letra == 'g':
+    print("Gato")
+elif letra == 'h':
+    print("Hipopótamo")
+elif letra == 'i':
+    print("Igreja")
+elif letra == 'j':
+    print("Janela")
+elif letra == 'k':
+    print("Kiwi")
+elif letra == 'l':
+    print("Lápis")
+elif letra == 'm':
+    print("Macaco")
+elif letra == 'n':
+    print("Navio")
+elif letra == 'o':
+    print("Ovelha")
+elif letra == 'p':
+    print("Pato")
+elif letra == 'q':
+    print("Queijo")
+elif letra == 'r':
+    print("Rato")
+elif letra == 's':
+    print("Sapato")
+elif letra == 't':
+    print("Tigre")
+elif letra == 'u':
+    print("Uva")
+elif letra == 'v':
+    print("Vaca")
+elif letra == 'w':
+    print("Waffle")
+elif letra == 'x':
+    print("Xícara")
+elif letra == 'y':
+    print("Yakult")
+elif letra == 'z':
+    print("Zebra")
+else:
+    print("Dado inserido inválido! Por favor digite uma letra válida.")
